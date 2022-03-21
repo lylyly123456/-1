@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>canvas的使用</title>
+	</head>
+	<body>
+		<canvas id="canvas" width="250" height="200" style="border: 1px solid blue;"></canvas>
+		<script>
+			var canv=document.getElementById("canvas");
+			var context=canv.getContext("2d");
+			context.moveTo(250,200);
+			context.lineTo(0,0);
+			context.moveTo(150,200);
+			context.lineTo(0,0);
+			context.moveTo(250,120);
+			context.lineTo(0,0);
+			context.strokeStyle="red";
+			context.stroke();
+		</script>
+	</body>
+</html>

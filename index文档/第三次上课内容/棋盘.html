@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>canvas的使用</title>
+	</head>
+	<body>
+		<canvas id="canvas" width="600" height="600" style="border: 1px solid blue;"></canvas>
+		<script>
+			var canv=document.getElementById("canvas");
+			var context=canv.getContext("2d");
+			for(i=0;i<18;i++){
+				context.moveTo(0,600/18*i);
+				context.lineTo(600,(600/18)*i);
+				context.stroke();
+			}
+			for(j=0;j<18;j++){
+							context.moveTo((600/18)*j,0);
+							context.lineTo((600/18)*j,600);
+							context.strokeStyle="red";
+						 	context.lineWidth="1";
+						 	context.stroke();
+							}
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<!-- header begin -->
+		<header class="exp-header">
+		   <img class="logo" src="/uploads/151001/canon.png">
+		   <span>Techbrood is awesome :)</span>
+		   <div class="exp-menu"></div>
+		</header>
+		<!-- header end -->
+		
+		<!-- main begin -->
+		<main class="exp-main">
+		   <!-- aside begin -->
+		   <aside class="comments">
+		       <h4>Latest comments</h4>
+		       <ul>
+		           <p>looks good</p>
+		           <p>i want more</p>
+		           <p>i have paid the awesome</p>
+		       </ul>
+		   </aside>
+		   <!-- aside end -->
+		   <article>
+		       <section class="intro">
+		           <h2>Introduction</h2>
+		           <p>
+		               Leading search engines on web creatives.
+		           </p>
+		           <ul>
+		               <li>HTML5</li>
+		               <li>CSS3</li>
+		               <li>WebGL</li>
+		               <li>SVG</li>
+		               <li>JavaScript/ES6</li>
+		           </ul>
+		           <h2>Description</h2>
+		           <p>
+		               We collect funny front-end works and tuturials from all over the world openning websites, and further we provide localization/indexing/tagging/deploying/online debugging services for these free resources.
+		               <a href="techbrood.com">techbrood.com</a>, we hope it help promoting the usage of new html5 techniques.
+		           </p>
+		           <ol>
+		               <li>techbrood.com</li>
+		               <li>wow.techbrood.com</li>
+		           </ol>
+		       </section>
+		       <section class="references">
+		           <h2>References</h2>
+		           <ol>
+		               <li><cite><a href="#">google.com</a></cite>, Google</li>
+		               <li><cite><a href="#">github.com</a></cite>, Github</li>
+		           </ol>
+		       </section>
+		   </article>
+		</main>
+		<!-- main end -->
+		
+		<!-- footer begin -->
+		<footer class="exp-footer">
+		   <div>Copyright © 2015 TechBrood Co.</div>
+		   <div>沪ICP备14011478号</div>
+		</footer>
+		<!-- footer end -->
+		
+		
+		
+		
+		
+		.exp-header,
+		.exp-footer {
+		    -webkit-transition-duration: 0.25s;
+		    transition-duration: 0.25s;
+		    -webkit-transition-delay: 0.25s;
+		    transition-delay: 0.25s;
+		    height: 9vh;
+		    z-index: 2;
+		    font-size: 120%;
+		    color: white;
+		    font-weight: 700;
+		}
+		.exp-header {
+		    background-color: #5d6373;
+		    position: absolute;
+		    width: 100%;
+		    top: 0;
+		    left: 0;
+		    line-height: 9vh;
+		    padding-left: 1.5rem;
+		}
+		.exp-footer {
+		    width: 100%;
+		    display: -webkit-box;
+		    display: -webkit-flex;
+		    display: -ms-flexbox;
+		    display: flex;
+		    -webkit-box-orient: horizontal;
+		    -webkit-box-direction: normal;
+		    -webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		    flex-direction: row;
+		    -webkit-box-align: center;
+		    -webkit-align-items: center;
+		    -ms-flex-align: center;
+		    align-items: center;
+		    -webkit-box-pack: justify;
+		    -webkit-justify-content: space-between;
+		    -ms-flex-pack: justify;
+		    justify-content: space-between;
+		}
+		.exp-menu {
+		    position: absolute;
+		    top: 0;
+		    right: 25px;
+		    height: 9vh;
+		    width: 9vh;
+		    background-color: #454b5b;
+		    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+		}
+		.exp-menu:before {
+		    content: '';
+		    width: 1.3rem;
+		    height: 0.25vh;
+		    position: absolute;
+		    background-color: white;
+		    top: calc(9vh / 2 - 0.5rem);
+		    left: calc(9vh / 2 - 0.75rem);
+		    box-shadow: 0.25rem 0.5rem 0 white, 0 1rem 0 white;
+		}
+		.exp-footer {
+		    background-color: #252a37;
+		    position: fixed;
+		    width: 100%;
+		    bottom: 0;
+		    left: 0;
+		}
+		.exp-main {
+		    margin: 20px 0;
+		    width: 100%;
+		}
+		body {
+		    margin: 0;
+		    padding: 0;
+		}
+		.logo {
+		    position: relative;
+		    top: 8px;
+		}
+		aside {
+		    width: 25%;
+		    float: left;
+		    margin-left: 68.02721%;
+		    margin-right: -100%;
+		    padding-top: 20px;
+		    padding-bottom: 60px;
+		    margin-top: 40px;
+		    padding-left: 20px;
+		    color: #2f2a2a;
+		}
+		article {
+		    width: 60%;
+		    float: left;
+		    margin-left: 8.5034%;
+		    margin-right: -100%;
+		    padding-top: 20px;
+		    border-right: 1px dashed #666;
+		}
+	</body>
+</html>
